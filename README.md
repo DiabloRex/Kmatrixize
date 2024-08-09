@@ -2,11 +2,11 @@
 Covert populational hic ncc format (nuc_process) matrix to Genome Khimaira matrix
 
 ## Usage: 
-Kmatrixize [1.Input file name] [2.output file name] [3.threshold] [4.method]
+Kmatrixize [1.Input file] [2.Output file] [3.Threshold] [4.Method]
 
-method: 0 -> PointMax, 1 -> EdgeMax, 2 -> Random
+Method: 0 -> PointMax [default], 1 -> EdgeMax, 2 -> Random
 
-threshold: minimal contact number for a valid contact
+Threshold: [default -> 0]; for PointMax -> lowest number of contact (edge) number for each point (segments); for EdgeMax -> lowest number of contact (edge) number for each point (segments) pair;
 
 ## Example (2~3 min):
 Kmatrixize A8.R1.ncc A8.R1.kmatrix.point.ncc 2 0
