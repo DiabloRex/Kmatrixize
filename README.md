@@ -9,7 +9,7 @@ method: 0 -> PointMax, 1 -> EdgeMax, 2 -> Random
 threshold: minimal contact number for a valid contact
 
 ## Example (2~3 min):
-Kmatrixize A8.R1.ncc A8.R1.single.point.ncc 2 0
+Kmatrixize A8.R1.ncc A8.R1.kmatrix.point.ncc 2 0
 
 ## Require
 .net core 6.0: [https://dotnet.microsoft.com/download/dotnet/6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
