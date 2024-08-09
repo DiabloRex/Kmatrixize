@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Kmatrixize": {
+      "commandName": "Project",
+      "commandLineArgs": "A8.R1.ncc single.ncc 1 2"
+    }
+  }
+}
